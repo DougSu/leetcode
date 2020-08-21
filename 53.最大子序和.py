@@ -1,3 +1,10 @@
+'''
+Author: doug
+Date: 2020-08-21 17:53:14
+LastEditors: Please set LastEditors
+LastEditTime: 2020-08-21 17:53:15
+Description: 
+'''
 #
 # @lc app=leetcode.cn id=53 lang=python3
 #
