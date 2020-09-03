@@ -1,7 +1,7 @@
 '''
 Author: your name
 Date: 2020-09-02 17:59:07
-LastEditTime: 2020-09-03 15:12:47
+LastEditTime: 2020-09-03 15:20:04
 LastEditors: Please set LastEditors
 Description: In User Settings Edit
 FilePath: \undefinede:\leetcode\58.最后一个单词的长度.py
@@ -15,10 +15,12 @@ FilePath: \undefinede:\leetcode\58.最后一个单词的长度.py
 # @lc code=start
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
+        # 语法糖
         # res = s.strip()
         # res = res.split(' ')
         # print(res)
         # return len(res[-1])
+        # 基本流程控制方法
         e = len(s)-1
         star = e
         while e>=0 and s[e] ==" ":
